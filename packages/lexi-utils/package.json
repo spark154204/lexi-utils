@@ -1,0 +1,37 @@
+{
+  "name": "lexi-utils",
+  "version": "0.0.6",
+  "description": "",
+  "scripts": {
+    "build": " npx vite build",
+    "docs": "npx typedoc  --options typedoc.ts",
+    "jest": "jest --config jest.config.ts",
+    "push": "npm run build  && npm publish  lexi-utils"
+  },
+  "types": "./dist/types/index.d.ts",
+  "main": "./dist/lexi-utils.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/lexi-utils.mjs",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "keywords": [
+    "utils",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.4",
+    "@types/jsdom": "^21.1.3",
+    "jsdom": "^22.1.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.24.8",
+    "typedoc-plugin-markdown": "^3.15.4",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9",
+    "vite-plugin-dts": "^3.5.2"
+  }
+}

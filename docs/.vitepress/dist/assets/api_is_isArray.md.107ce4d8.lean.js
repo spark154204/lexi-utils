@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,Q as l}from"./chunks/framework.a84cb14f.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"api/is/isArray.md","filePath":"api/is/isArray.md"}'),p={name:"api/is/isArray.md"},o=l("",3),e=[o];function r(c,t,y,i,E,A){return a(),n("div",null,e)}const F=s(p,[["render",r]]);export{d as __pageData,F as default};

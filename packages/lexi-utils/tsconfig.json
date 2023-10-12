@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "types": ["node", "jest",],
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "declaration": true,
+    "outDir": "/",
+    "rootDir": "./src",
+    "esModuleInterop":true,
+    "paths": {  
+      "jest": ["./node_modules/@types/jest/index.d.ts"]  
+    }  
+  },
+  "include": [
+    "src",
+    "types",
+  ],
+}

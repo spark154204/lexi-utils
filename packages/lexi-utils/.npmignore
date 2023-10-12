@@ -1,0 +1,10 @@
+src/
+docs/
+package.json
+typedoc.ts
+vite.config.ts
+.npmignore
+tsconfig.json
+jest.config.ts
+build
+```

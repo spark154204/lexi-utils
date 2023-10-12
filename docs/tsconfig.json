@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "types": ["node", "jest"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "declaration": true,
+    "outDir": "/",
+    "rootDir": "./src",
+    
+  },
+  
+  "include": [
+    "src",
+    "types"
+  ],
+}

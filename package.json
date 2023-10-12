@@ -1,0 +1,17 @@
+{
+  "name": "lexi",
+  "version": "0.0.6",
+  "workspaces": [
+    "packages/*",
+    "docs"
+  ],
+
+  "scripts": {
+    "docs:dev": "git pull origin & pnpm -C docs dev",
+    "docs:build": "pnpm -C docs build",
+    "build": "pnpm -C packages/lexi-utils build",
+    "jest": "pnpm -C packages/lexi-utils jest",
+    "publish": "npm run build & pnpm -C packages/lexi-utils push "
+  }
+
+}
